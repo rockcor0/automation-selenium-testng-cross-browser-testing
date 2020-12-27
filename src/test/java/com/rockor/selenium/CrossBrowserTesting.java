@@ -31,6 +31,7 @@ public class CrossBrowserTesting {
 		else if(browserType.equals("Internet Explorer")) {
 			System.setProperty("webdriver.ie.driver", "./src/test/resources/iedriver/iedriver");
 			driver = new InternetExplorerDriver();
+			
 		}
 		
 	}
@@ -39,6 +40,7 @@ public class CrossBrowserTesting {
 	public void youtubeSearch() {
 	}
 
+	
 	@AfterClass
 	public void afterClass() {
 	}
